@@ -1,0 +1,162 @@
+.wh{
+    color: #fff;
+}
+.navbar-item a{
+    color: #fff;
+    font-size: 80%;
+}
+
+h2{
+    word-spacing: 4px;
+    color: #fff;
+}
+h2:after{
+    display: block;
+    background-color: #fff;
+    height: 3px;
+    width:65px;
+    content:" ";
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:4px;
+}
+#home{
+    background: url(images/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 680px;
+    background-attachment: fixed;
+}
+#home .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 680px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  #home .home-inner {
+    padding-top: 150px;
+  }
+  .c{
+      border:none;
+      border-bottom: 1px sold #333;
+  }
+  .c:focus{
+    outline: none;
+}
+.fabs{
+    font-size: 300%;
+    color: #333;
+    opacity: 0.6;
+
+}
+#icons{
+    border-bottom: 1px solid rgb(139, 137, 137);
+}
+#tabs,#standard-pic-section,#pricing{
+    background-color: rgb(255, 251, 251);
+    padding-top:150px;
+    padding-bottom: 120px;
+}
+#awesome,#axure,#contact,#customers{
+    padding-top:100px;
+    padding-bottom: 120px;
+}
+#sublist-section h3,
+#standard-pic-section h3{
+    font-size: 150%;
+    color: black;
+}
+#sublist-section h3:after,
+#standard-pic-section h3:after{
+    display: block;
+    background-color: coral;
+    height: 2px;
+    width:65px;
+    content:" ";
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:4px;
+}
+.fass{
+    font-size:100%;
+    color: coral;
+    border: 2px solid coral;
+    border-radius: 50%;
+    padding: 5px;
+}
+.fars{
+    font-size:170%;
+    color: coral;
+    border: 2px solid coral;
+    border-radius: 50%;
+    padding: 25px;
+}
+#awesome h2:after,
+#pricing h2:after,
+#customers h2:after,
+#contact h2:after{
+    display: block;
+    background-color: coral;
+    height: 3px;
+    width:65px;
+    content:" ";
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+#axure h2:after{
+    display: block;
+    background-color: #fff;
+    height: 3px;
+    width:65px;
+    content:" ";
+    margin-left:auto;
+    margin-right: auto;
+}
+#axure{
+ background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.shadow{
+    -webkit-box-shadow: -1px 0px 29px 3px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: -1px 0px 29px 3px rgba(0, 0, 0, 0.29);
+    box-shadow: -1px 0px 29px 3px rgba(0, 0, 0, 0.29);
+}
+.wfabs{
+    color: #fff;
+    font-size: 150%;
+}
+.speech-bubble {
+	position: relative;
+	background: #f7f6f6;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 19px solid transparent;
+	border-top-color: #f7f6f6;
+	border-bottom: 0;
+	margin-left: -160px;
+	margin-bottom: -19px;
+}
+#awesome h2,
+#pricing h2,
+#customers h2,
+#contact h2,
+#axure h2,
+#home h2{
+    font-family: 'Raleway', sans-serif; 
+}
+#pricing span{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 800;
+}
